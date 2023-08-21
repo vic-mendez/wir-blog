@@ -12,7 +12,7 @@ function Navbar() {
             <div className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className="navbar-logo">
-                        <img src='/LOGO.jpg' alt="When in Rome" />
+                        <img src='/images/LOGO.jpg' alt="When in Rome" />
                     </Link>
                     <div className='menu-icon' onClick={toggleMenu}>
                         {Menuclick ? (<span class="material-symbols-outlined">close</span>)
