@@ -1,0 +1,114 @@
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+/* Filter CSS */
+
+.filter-container {
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.filter-active {
+    border: 1px solid #162252;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #162252;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filter {
+    font-size: 1.1rem;
+}
+
+.one-card {
+    margin: 10px;
+    border: 2px solid#AE9142;
+    border-radius: .3rem;
+    padding: 1rem;
+    width: 275px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #162252;
+}
+
+.one-card:hover {
+    transform: translateY(-10px);
+}
+
+.category {
+    margin-block-start: 0.2px;
+    margin-block-end: 10px;
+    text-transform: uppercase;
+}
+
+.card-image {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 250px;
+    object-position: center;
+}
+
+.card-title {
+    text-decoration: none;
+    margin-block-end: 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.card-author {
+    text-align: left;
+}
+
+.card-date {
+    text-align: right;
+}
+
+.card-content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-decoration: none;
+    color: #162252;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #AE9142;
+}
+
+@media (max-width: 480px) {
+    .filter-container {
+        gap: 1rem;
+    }
+
+    .filter {
+        font-size: 0.8rem;
+    }
+
+    .one-card{
+        width:245px;
+    }
+
+    .card-title{
+        font-size: 1rem;
+    }
+
+    .card-author, .card-date{
+        font-size: 0.8rem;
+    }
+}
