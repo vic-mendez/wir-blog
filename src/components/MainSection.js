@@ -31,8 +31,8 @@ function MainSection() {
         <div className='about-container'>
           <div className='about-section'>
             <h2>About</h2>
-            <p>This summer, I had the unique experience of studying abroad in Rome as part of the Notre Dame Engineering Summer Study Abroad Program. With 48 other engineering students, I spent two months living in the heart of Rome, immersing myself in their culture and traditions as much as possible. Part of the experience involved managing our own meal plan while we were there. This was easier for some students to manage than others, which is why I created "When in Rome." </p>
-            <p>I created this blog for future students who plan to study in Rome to help them navigate the overwhelming number of restaurants and cafes in the area as well as potential meal ideas that other students have tried out themselves. The "Cook It" section highlights simple, easy, and affordable meals students made. The "Book It" section refers to some restaurants we tried over the summer. The "When not in Rome" section is the same, but it highlights places around Italy, in case you take a weekend trip outside of Rome.</p>
+            <p>I had the unique experience of studying abroad in Rome as part of the Notre Dame Engineering Summer Study Abroad Program. With 48 other engineering students, part of the experience involved managing our own meal plan while we were there, which included both cooking and eating out. </p>
+            <p>I  created this blog for future students who plan to study in Rome to help them navigate what can sometimes be an overwhelming process. I wanted to help provide a guide for navigating the numerous restaurants in Rome and showcase some recipes that students have tried out themselves.</p>
           </div>
         </div>
         <div className='carousel'>
