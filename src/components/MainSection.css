@@ -19,16 +19,18 @@
 }
 
 .about-section {
-    padding: 0px 8px;
-    text-align: center;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    text-align: center; 
 }
 
 .about-section h2 {
-    font-size: 1.7rem;
+    font-size: 1.98rem;
+    font-family: Playfair Display SC;
 }
 
 .about-section p {
-    font-size: medium;
+    font-size: 1.21rem;
 }
 
 .carousel {
@@ -223,24 +225,38 @@
     }
 
     .about-container {
-        min-width: 300px;
+        min-width: 290px;
         width: 20px;
         height: 10px;
-        min-height: 195px;
-        margin-top: 220px;
+        min-height: 265px;
+        margin-top: 250px;
         margin-right: 60px;
     }
 
-    .about-section{
-        padding: 0px 5px;
+    .about-section {
+        padding: 0px 20px;
     }
 
     .about-section h2 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     
     .about-section p {
-        font-size: 0.5rem;
+        font-size: 0.68rem;
+    }
+
+    .slider {
+        aspect-ratio: 30 / 20;
+        flex-direction: row; 
+        overflow: auto; 
+        scroll-snap-type: x mandatory;
+    }
+    
+    .slider img {
+        flex: none; 
+        width: 100%;
+        scroll-snap-align: start;
+        object-fit: cover;
     }
 
     .slider-nav a {
@@ -254,7 +270,7 @@
 
     .slider-wrapper {
         max-width: 18rem;
-        margin: 15px 20px;
+        margin: 12px 15px;
     }
 
     .card-container {
