@@ -21,7 +21,7 @@
 .about-section {
     padding: 0px 20px;
     padding-bottom: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 .about-section h2 {
@@ -108,6 +108,27 @@
     align-items: center;
 }
 
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .about-container {
+        margin-left: 145px;
+        min-height: 300px;
+        min-width: 550px;
+    }
+
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 1.4rem;
+    }
+
+    .slider-wrapper {
+        max-width: 59rem;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
     .about-container {
         grid-column-start: 2;
@@ -121,11 +142,8 @@
 
     .carousel {
         padding: 10px;
-        margin: 10px;
         grid-column-start: 1;
-        grid-column-end: span2;
         grid-row-start: 1;
-        min-height: 400px;
     }
 
     .slider-wrapper {
@@ -240,20 +258,20 @@
     .about-section h2 {
         font-size: 1.2rem;
     }
-    
+
     .about-section p {
         font-size: 0.68rem;
     }
 
     .slider {
         aspect-ratio: 30 / 20;
-        flex-direction: row; 
-        overflow: auto; 
+        flex-direction: row;
+        overflow: auto;
         scroll-snap-type: x mandatory;
     }
-    
+
     .slider img {
-        flex: none; 
+        flex: none;
         width: 100%;
         scroll-snap-align: start;
         object-fit: cover;
@@ -276,4 +294,4 @@
     .card-container {
         margin-top: 20px;
     }
-  }
+}
